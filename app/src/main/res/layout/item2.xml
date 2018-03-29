@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:weightSum="10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <TextView
+                android:id="@+id/txtRbdMatri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:padding="12dp"
+                android:text="RBD :"
+                android:textSize="16sp"
+                android:textColor="#212121"
+                />
+
+            <TextView
+                android:id="@+id/txtNivelMatri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtAnioMatri"
+                android:padding="12dp"
+                android:text="Nivel : PRE KINDER"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/txtAnioMatri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtRbdMatri"
+                android:layout_alignBottom="@+id/txtRbdMatri"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="47dp"
+                android:layout_marginRight="47dp"
+                android:text="Año : 2017"
+                android:textColor="#212121"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtCantidadMatri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtAnioMatri"
+                android:layout_alignStart="@+id/txtAnioMatri"
+                android:layout_below="@+id/txtRbdMatri"
+                android:text="Cantidad : 20"
+                android:textColor="#212121"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtgradoMatri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtNivelMatri"
+                android:layout_marginLeft="11dp"
+                android:layout_marginStart="11dp"
+                android:text="Grado  : A "
+                android:textColor="#212121"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtTipoEnsenianzaMatri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtgradoMatri"
+                android:layout_alignStart="@+id/txtgradoMatri"
+                android:layout_below="@+id/txtgradoMatri"
+                android:layout_marginTop="15dp"
+                android:text="Tipo Enseñanza : EDUCACIÓN CIENTIFICO HUMANISTA"
+                android:textColor="#212121"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+      </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

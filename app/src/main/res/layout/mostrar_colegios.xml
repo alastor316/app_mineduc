@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- Here you put the rest of your current view-->
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBEDEE"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:background="#303F9F"
+        android:elevation="14dp"
+        android:layout_marginBottom="18dp"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ficha Establecimiento Educacional"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            />
+
+   </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/mostrandoRBD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="19sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="#212121"
+         />
+
+
+    <TextView
+        android:id="@+id/mostrandoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="19sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="#212121"
+        />
+
+        <TextView
+        android:id="@+id/mostrandoDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+            android:textSize="19sp"
+            android:layout_marginBottom="10sp"
+            android:textColor="#212121"
+        />
+
+    <TextView
+        android:id="@+id/mostrandoTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="19sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="#212121"
+        />
+
+
+
+    <TextView
+        android:id="@+id/mostrandoCelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="19sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="#212121"
+        />
+
+
+
+    <TextView
+        android:id="@+id/mostrandoMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="19sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="#212121"
+        />
+
+
+
+    <TextView
+        android:id="@+id/fechaIniciacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="19sp"
+        android:layout_marginBottom="10sp"
+        android:textColor="#212121"
+        />
+
+        <TextView
+            android:id="@+id/nombreDirector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="19sp"
+            android:layout_marginBottom="10sp"
+            android:textColor="#212121"
+            />
+
+        <TextView
+            android:id="@+id/rutRepresentante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="19sp"
+            android:layout_marginBottom="10sp"
+            android:textColor="#212121"
+            />
+
+
+
+        <TextView
+            android:id="@+id/nombreRepresentante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="19sp"
+            android:layout_marginBottom="10sp"
+            android:textColor="#212121"
+            />
+
+
+
+        <TextView
+            android:id="@+id/mostrandoDependencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="19sp"
+            android:layout_marginBottom="10sp"
+            android:textColor="#212121"
+            />
+
+        <TextView
+            android:id="@+id/mostrandoZona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="19sp"
+            android:layout_marginBottom="10sp"
+            android:textColor="#212121"
+            />
+
+
+        <TextView
+            android:id="@+id/mostrandoComuna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="19sp"
+            android:layout_marginBottom="10sp"
+            android:textColor="#212121"
+            />
+
+        <TextView
+            android:id="@+id/mostrandoProvincia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="19sp"
+            android:layout_marginBottom="10sp"
+            android:textColor="#212121"
+            />
+
+        <TextView
+            android:id="@+id/mostrandoEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="19sp"
+            android:layout_marginBottom="10sp"
+            android:textColor="#212121"
+            />
+
+
+       <ImageButton
+           android:id="@+id/botonMapa"
+           android:layout_width="30dp"
+           android:layout_height="40dp"
+           android:src="@drawable/marker"
+           android:layout_marginLeft="190dp"
+           />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
